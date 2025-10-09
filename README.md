@@ -23,7 +23,11 @@ api-scheduler/
 ├── api_scheduler.py        # Main scheduler script
 ├── config.py           # Configuration file (API URL and log path)
 ├── test.log             # Log file (auto-created)
-└── README.md           # Project documentation
+├── README.md           # Project documentation
+└── test_api_scheduler.py    # Basic unit test
+
+
+
 ```
 
 ---
@@ -108,3 +112,4 @@ Logs are automatically saved in `test.log`.
 * Script crashes → prevented with try/except blocks.
 
 ---
+
